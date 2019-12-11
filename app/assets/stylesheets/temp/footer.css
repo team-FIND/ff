@@ -1,0 +1,71 @@
+@import url('project.css');
+
+#footer {
+	overflow: hidden;
+	margin: -12px 0px 0px 0px;
+}
+
+#footer ul{
+	clear: both;
+	border-top: 3px solid var(--project--color);
+}
+
+#footer li{
+	list-style: none;
+}
+
+#fbox1 {
+	color: var(--project--color); 
+	float: left;
+	font-size: 50px;
+	text-align: center;
+	height: 160px;
+	width: 480px;
+	border-right: 3px solid var(--project--color);
+	border-left: 3px solid var(--project--color);
+	margin: 0px 0px 0px -40px;
+	justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#fbox2 {
+	color: var(--project--color); 
+	float: right;
+	font-size: 50px;
+	text-align: center;
+	height: 160px;
+	width: 480px;
+	border-right: solid 3px var(--project--color);
+	margin: -160px 0px 0px 0px;
+	justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#fbox3 {
+	color: var(--project--color); 
+	font-size: 50px;
+	text-align: center;
+	height: 160px;
+	width: 954px;
+	border-right: solid 3px var(--project--color);
+	border-left: solid 3px var(--project--color);
+	margin: 0px 0px -15px -40px;
+	justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+#copyright {
+	clear: both;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	height: 260px;
+	background: var(--project--color);
+	justify-content: center;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+@import url('project.css');
+
+
+body {
+	margin: 0px;
+	background: #ccc;
+	font-size: 12px; 
+	list-style: none;
+}
+
+#wrapper {
+	background: white;
+	width: 960px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#header {
+	clear: both;
+	height: 150px;
+	display: flex;
+	overflow: hidden;
+	padding-top: 30px;
+	background:var(--project--color);
+	align-items: center;
+	justify-content: center;
+}
+
+#logo {
+	float: left;
+	clear: both;
+	color: white;
+	width: 350px;
+    font-size: 110px;
+    letter-spacing: 20px;
+	margin: 0px 30px 0px 0px;
+}
+
+#language{
+	color:var(--project--color);
+	float: left;
+	font-size: 40px;
+	background: white;
+	border-radius: 15px;
+	margin: 40px 100px 0px 10px;
+	padding: 0px 10px 0px 10px;
+}
+
+#navi {
+	float: right;
+	width: 350px;
+	display: flex;
+	margin: 0px auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+#navi img{
+	width: 100px;
+	height: 100px;
+	font-size: 25px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 0px 0px -10px;
+}
+
+.notice{
+	color: var(--project--color);
+	font-size: 30px;
+	text-align: center;
+}
+
+.alert{
+	color: red;
+	font-size: 30px;
+	text-align: center;
+}

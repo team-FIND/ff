@@ -1,0 +1,11 @@
+#main-feature {
+	width: 960px;
+	overflow: hidden;
+    padding: 0px 0px 100px 0px;
+}
+
+#main-feature p{
+	color:orange;
+	font-size: 60px;
+	margin-top: 20px;
+}
