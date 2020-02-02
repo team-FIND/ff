@@ -1,8 +1,22 @@
 Rails.application.routes.draw do
 
+  resources :main_categories
+  resources :sub_categories
+
+  #カテゴリー一覧ページ
+  # get 'main_category/:name'
+
+  # 言語設定ページ
+  get 'languages/index'
+
+  # カテゴリ一覧ページ
+
   get 'welcome/index'
   
   root 'welcome#index'
+
+  # 言語設定ページ
+  #get '/language'
 
   resources :welcome do
     collection do
@@ -217,13 +231,18 @@ end end
 
 
 Rails.application.routes.draw do
+  resources :sub_categories
+  resources :main_categories
+  get 'languages/index'
   get 'inquiry' => 'inquiry#index'              # 入力画面
   post 'inquiry/confirm' => 'inquiry#confirm'   # 確認画面
   post 'inquiry/thanks' => 'inquiry#thanks'     # 送信完了画面
 end
 
 Rails.application.routes.draw do
-  get  'index' =>'messages#index'
+  resources :sub_categories
+  resources :main_categories
+  get 'languages/index'
   post 'confirm' => 'messages#confirm'
   post 'done' => 'messages#done'
 end

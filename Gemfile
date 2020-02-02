@@ -51,12 +51,12 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'carrierwave'
-gem 'spring'
+# gem 'spring'
 
 gem 'activeadmin'
 gem 'active_admin_flat_skin'
@@ -73,3 +73,13 @@ gem 'meta-tags'
 # gem 'rails-i18n', '~> 5.1'
 
 # gem "webpacker", github: "rails/webpacker"
+
+# UIの多言語化の導入
+gem 'rails-i18n'
+
+# モデルの多言語化の導入
+gem 'globalize'
+#  , '~> 5.1.0'
+
+#パッケージの追加
+# gem 'solargraph'
